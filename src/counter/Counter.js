@@ -25,7 +25,6 @@ function Counter() {
 
         <div className="col-12">
             <h1 className="fw-bold fs-3 text-secondary mb-3">
-                <i className="fa-solid fa-calculator me-2 text-primary"></i>
                 REACT COUNTER
             </h1>
 
@@ -33,7 +32,7 @@ function Counter() {
                 {count}
             </div>
 
-            <div className="text-muted small">
+            <div>
                 Click the actions below to manipulate the state
             </div>
         </div>
@@ -42,21 +41,18 @@ function Counter() {
 
             <div className="col-md-4">
                 <button onClick={decrement} className="btn btn-outline-danger w-100 py-3 fw-bold">
-                    <i className="fa-solid fa-minus me-2"></i>
                     DECREASE
                 </button>
             </div>
 
             <div className="col-md-4">
                 <button onClick={reset} className="btn btn-primary w-100 py-3 fw-bold">
-                    <i className="fa-solid fa-rotate-left me-2"></i>
                     RESET
                 </button>
             </div>
 
             <div className="col-md-4">
                 <button onClick={increment} className="btn btn-outline-success w-100 py-3 fw-bold">
-                    <i className="fa-solid fa-plus me-2"></i>
                     INCREASE
                 </button>
             </div>
