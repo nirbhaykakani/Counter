@@ -40,7 +40,7 @@ function Counter() {
         <div className="row g-3 mt-4">
 
             <div className="col-md-4">
-                <button onClick={decrement} className="btn btn-outline-danger w-100 py-3 fw-bold">
+                <button onClick={decrement} className="btn btn-primary w-100 py-3 fw-bold">
                     DECREASE
                 </button>
             </div>
@@ -52,7 +52,7 @@ function Counter() {
             </div>
 
             <div className="col-md-4">
-                <button onClick={increment} className="btn btn-outline-success w-100 py-3 fw-bold">
+                <button onClick={increment} className="btn btn-primary w-100 py-3 fw-bold">
                     INCREASE
                 </button>
             </div>
